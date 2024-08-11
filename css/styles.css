@@ -125,6 +125,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link:hover,
 .address-link:focus {
@@ -178,6 +179,7 @@ img {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -220,6 +222,7 @@ img {
   width: 264px;
   height: 112px;
   background-color: #f4f4fd;
+  margin-bottom: 8px;
 }
 
 .information-item {
@@ -296,6 +299,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 24px;
 }
 .personal-icon-link {
   width: 100%;
@@ -312,8 +316,8 @@ img {
   width: 40px;
   height: 40px;
 }
-.person-icon-link:hover,
-.person-icon-link:focus {
+.personal-icon-link:hover,
+.personal-icon-link:focus {
   background-color: #404bbf;
 }
 .person-svg {
